@@ -51,7 +51,6 @@ I’m hooked on the thrill of untangling complex systems—whether it’s optimi
 
 - **LinkedIn**: [pratikghose](https://www.linkedin.com/in/pratikghose)  
 - **Email**: pratikghose1999@gmail.com  
-- **X**: [Your X handle, if applicable]  
 
 Got a cool project, a tricky problem, or just want to chat about cloud-native tech? Drop me a line—I’m always up for a challenge or a coffee-fueled code review!
 
