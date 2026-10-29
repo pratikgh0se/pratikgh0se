@@ -39,7 +39,6 @@ The thing I love most is **Go and Kubernetes controllers**. You tell the cluster
 - **[youtube-mcp](https://github.com/pratikgh0se/youtube-mcp)**: local-first MCP server that lets Claude and other AI assistants search YouTube, manage your channel and read analytics. Every change waits for your approval.
 - **[Bento](https://github.com/pratikgh0se/machine-setup)**: Claude Code plugins for live panes, a status band, toasts and guard rails, plus a one-command macOS setup.
 - **[claude-handoff](https://github.com/pratikgh0se/claude-handoff)**: hooks that write a handoff before Claude Code auto-compacts, so long sessions keep their goal and next step.
-- **[ccusage-report](https://github.com/pratikgh0se/ccusage-report)**: zero-dependency HTML dashboard of your Claude Code spending. Install with Homebrew.
 - **[claude-efficiency-hooks](https://github.com/pratikgh0se/claude-efficiency-hooks)**: Claude Code and Codex hooks that cut token waste and watch context size.
 - **[dojo](https://github.com/pratikgh0se/dojo)**: local-first Mac app for finishing a long study plan: DSA, system design, spaced repetition.
 
@@ -53,7 +52,6 @@ And some small tools I use every day:
 
 | Project | What it does |
 |---|---|
-| [ccusage-report](https://github.com/pratikgh0se/ccusage-report) | An 8-page dashboard showing where my Claude Code money goes. `brew install`-able from [the tap](https://github.com/pratikgh0se/homebrew-ccusage-report) |
 | [claude-efficiency-hooks](https://github.com/pratikgh0se/claude-efficiency-hooks) | Hooks that stop agents from burning tokens on wasteful patterns |
 | [auto-docs-skill](https://github.com/pratikgh0se/auto-docs-skill) | Keeps docs and changelogs current as I commit, so nobody has to remember |
 | [meta-prompt-skill](https://github.com/pratikgh0se/meta-prompt-skill) | Generates prompt templates using Anthropic's metaprompt technique |
