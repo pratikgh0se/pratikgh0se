@@ -9,7 +9,7 @@ I love infrastructure. Honestly, infrastructure automation is the most fun part 
 
 The thing I love most is **Go and Kubernetes controllers**. You tell the cluster what the world should look like, and the controller keeps pushing reality until it agrees. That idea never gets old for me.
 
-[![Portfolio](https://img.shields.io/badge/pratik.dev-222?style=flat-square&logo=gnubash&logoColor=white)](https://portfolio.pratikghose1999.workers.dev/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-222?style=flat-square&logo=gnubash&logoColor=white)](https://portfolio.pratikghose1999.workers.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/pratikghose)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pratikghose1999@gmail.com)
 
@@ -26,13 +26,22 @@ The thing I love most is **Go and Kubernetes controllers**. You tell the cluster
 ### 🏆 A few things I'm proud of
 
 - **Ten thousand drifts to zero.** Production Kubernetes at Agoda had drifted away from what the repos said: more than **10,000** drifts and orphans. I built a drift platform and we got it to **zero in one month**.
-- **Patching in minutes, not hours.** I moved Linux patching from Rundeck to GitLab and AWX. Most teams use it now, and parallel patch windows went from **hours to 10–20 minutes**.
+- **Patching in minutes, not hours.** I moved Linux patching from Rundeck to GitLab and AWX. Parallel patch windows went from **hours to 10–20 minutes**, with staged targeting and dry runs.
 - **Never blind again.** An OpenTelemetry rollout across **6,000 servers** once left operators blind for hours. So I added canaries, readiness gates, and rollback, and now a bad rollout stops small.
 - **20 TB → 2 TB.** At Highspot I ran Prometheus Operator in production, and recording rules and filtering brought daily metrics down from **20 TB to 2 TB**. Retiring redundant observability infra saved an estimated **$720K+ a year**.
 - **Flags for everyone.** Also at Highspot: I built the company-wide LaunchDarkly platform, so every team ships behind off-by-default feature flags.
 - **Logging on a diet.** At ThoughtSpot I cut logging cost by **38%**, mostly by catching logs that were overflowing and switching off telemetry nobody was reading.
 
 <sub>Before that: 300+ reusable APIs at Apisero, and Terraform libraries for Azure at EPAM.</sub>
+
+### 🛠️ Tools I've built
+
+- **[youtube-mcp](https://github.com/pratikgh0se/youtube-mcp)**: local-first MCP server that lets Claude and other AI assistants search YouTube, manage your channel and read analytics. Every change waits for your approval.
+- **[Bento](https://github.com/pratikgh0se/machine-setup)**: Claude Code plugins for live panes, a status band, toasts and guard rails, plus a one-command macOS setup.
+- **[claude-handoff](https://github.com/pratikgh0se/claude-handoff)**: hooks that write a handoff before Claude Code auto-compacts, so long sessions keep their goal and next step.
+- **[ccusage-report](https://github.com/pratikgh0se/ccusage-report)**: zero-dependency HTML dashboard of your Claude Code spending. Install with Homebrew.
+- **[claude-efficiency-hooks](https://github.com/pratikgh0se/claude-efficiency-hooks)**: Claude Code and Codex hooks that cut token waste and watch context size.
+- **[dojo](https://github.com/pratikgh0se/dojo)**: local-first Mac app for finishing a long study plan: DSA, system design, spaced repetition.
 
 ### 🧪 What I'm building on the side
 
