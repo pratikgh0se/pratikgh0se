@@ -40,7 +40,7 @@ The thing I love most is **Go and Kubernetes controllers**. You tell the cluster
 - **[instagram-mcp](https://github.com/pratikgh0se/instagram-mcp)**: self-hosted MCP server for Instagram creators: publish, schedule, handle comments and DMs, and read insights through Meta's official API, with approval before every write.
 - **[Scouter](https://github.com/pratikgh0se/scouter)**: MCP server for editing photos in darktable by conversation. Every edit is read back from the XMP sidecar to confirm it landed.
 - **[Bento](https://github.com/pratikgh0se/machine-setup)**: Claude Code plugins for live panes, a status band, toasts and guard rails, plus a one-command macOS setup.
-- **[claude-handoff](https://github.com/pratikgh0se/claude-handoff)**: hooks that write a handoff before Claude Code auto-compacts, so long sessions keep their goal and next step.
+- **[lossless-handoff](https://github.com/pratikgh0se/lossless-handoff)**: Claude Code hooks that keep long sessions lossless across auto-compaction: a handoff, a per-project decisions list, and recall of your exact earlier words. Based on the LCM paper.
 - **[claude-efficiency-hooks](https://github.com/pratikgh0se/claude-efficiency-hooks)**: Claude Code and Codex hooks that cut token waste and watch context size.
 - **[dojo](https://github.com/pratikgh0se/dojo)**: local-first Mac app for finishing a long study plan: DSA, system design, spaced repetition.
 
